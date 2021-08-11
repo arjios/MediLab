@@ -1,8 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ page import="model.entities.Anamnese"%>
 <%@ page import="java.util.Date"%>
-<%@ page import = "java.util.List" %>
-<%@ page import = "java.util.ArrayList" %>
+<%@ page import="java.util.List"%>
+<%@ page import="java.util.ArrayList"%>
+
+<%
+	@SuppressWarnings("unchecked")
+List<Anamnese> lista = (ArrayList<Anamnese>) request.getAttribute("anamnese");
+%>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -52,15 +58,18 @@
 					<th>Data</th>
 					<th>Visualização</th>
 				</tr>
+
+				<% for (Anamnese x : lista) { %>
 				<tr>
-					<td>fasfasdf</td>
-					<td>sfasfasfas</td>
-					<td>sfasfasfas</td>
-					<td>sfasfasfas</td>
-					<td>sfasfasfas</td>
-					<td>sfasfasfas</td>
-					<td>sfasfasfas</td>
+					<td><%= x.getPacienteID() %></td>
+					<td><%= x.getNome() %></td>
+					<td><%= x.getNumero() %></td>
+					<td><%= x.getTipoExame() %></td>
+					<td><%= x.getModalidade() %></td>
+					<td><%= x.getData() %></td>
+					<td><%= x.getVisualizacao() %></td>
 				</tr>
+				<% } %>
 			</table>
 		</div>
 	</div>
