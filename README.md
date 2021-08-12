@@ -6,7 +6,7 @@
 ### O termo usado quando medico realiza uma entrevista com seu paciente durante uma consulta em consultório 
 ### em que são realizadas perguntas específicas para se chegar ao diagnóstico é chamado de anamnese 
 
-# Exemplo da Tela Anamnese fornecida pela MEDILAB
+# Exemplo da Tela Anamnese fornecida pela Medilab
 ![anamnese01](https://github.com/arjios/Medilab/blob/main/Anamnese.jpg)
 
 ### É fornecido um arquivo JSON para popular a tabela.
