@@ -4,7 +4,7 @@
 # Sobre o projeto
 ## O projeto Medilab é uma adaptação de uma prova para Desenvolvedor Full Stack Jr. da Medilab Sistemas
 ### O termo Anamnese é usado quando medico realiza uma entrevista com seu paciente durante uma consulta em consultório 
-### em que são realizadas perguntas específicas para se chegar ao diagnóstico.
+### que são realizadas perguntas específicas para se chegar ao diagnóstico.
 ### Basicamente é uma tabela com JQuery DataTables, porém utilizei o HTML e CSS com JSP. A listagem ficou mais simples 
 ### que o solicitado.
 ### É fornecido um arquivo JSON para popular a tabela. O desafio é praticamente ler o arquivo JSON em JAVA
